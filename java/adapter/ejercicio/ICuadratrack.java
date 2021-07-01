@@ -15,7 +15,7 @@ public abstract class ICuadratrack {
     public void llenarGasolina(int cantidad){
 
         gasolina+= cantidad;
-        System.out.print("cargando "+cantidad+" litros de "+ tipoGas);
+        System.out.println("cargando "+cantidad+" litros de "+ tipoGas);
     }
     public void estadoCombustible(){
         Random ran = new Random();

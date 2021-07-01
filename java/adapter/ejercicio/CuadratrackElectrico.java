@@ -1,4 +1,9 @@
 package adapter.ejercicio;
 
-public class CuadratrackElectrico {
+public class CuadratrackElectrico extends ICuadratrackE{
+
+
+    public CuadratrackElectrico() {
+        super("CuadratrackElectrico");
+    }
 }
